@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  font-family: 'PT Serif', serif;
+  font-family: 'Space Grotesk', sans-serif;
+  max-width: 1440px;
+ }
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+header { 
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+  border-bottom: 1px solid #f8e0f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+} 
+
+header img {
+  width: 151px;
+  height: 40px;
+  margin-right: 32px;
+}
+
+.menu__wrapper {
+  display: flex;
+}
+
+.menu__wrapper a { 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 32px;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+
+
+/* section__sellNFT */
+
+
+.section__sellNFT {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section__sellNFT h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #000000;
+  text-shadow: -5px 5px 0px #FFFFFF;
+  padding-top: 117px;
+  margin: 0 auto;
+}
+
+.section__sellNFT p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #532C59;
+  padding-top: 32px; 
+  margin-bottom: 32px;
+}
+
+
+.section__sellNFT button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 114px;
+  height: 52px;
+  padding: 16px 20px;
+  background: #532C59;
+  border-radius: 15px;
+  margin: 0 auto;
+  font-family: 'Syne';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.sellNFT_bg {
+  position: absolute;
+  width: 1440px;
+  height: 499px;
+  left: 0px;
+  top: 57px;
+  background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.4;
+  filter: blur(116px);
+  z-index: -1;
+}
+
+.section__sellNFT img {
+  position: absolute;
+}
+
+
+.sellNFT__img1 {
+  width: 173px;
+  height: 174px;
+  top: 5px;
+  left: 53px;
+}
+
+.sellNFT__img2 {
+  width: 111px;
+  height: 112px;
+  top: 67px;
+  right: 167px;
+}
+
+.sellNFT__img3 {
+  width: 299px;
+  height: 300px;
+  left: -16px;
+  top: 298px;
+}
+
+.sellNFT__img4 {
+  width: 211px;
+  height: 211px;
+  right: 33px;
+  top: 387px;
+}
+
+/* section__partners */
+
+.section__partners {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  margin: 0 auto;
+  margin-top: 101px;
+  
+}
+
+.section__partners img {
+  margin-right: 40px;
+}
+
+
+.section__partners img:last-child {
+  margin-right: 0px;
+}
+
+/* section__team */
+
+.section__team {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.section__team h2 {
+  font-family: 'Syne';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 24px;
+  color: #000000;
+}
+
+.section__team h3 {
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #532C59;
+  padding-bottom: 80px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1440px;
+  padding: 0px 70px;
+  margin: 0 auto;
+}
+
+.team__wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0px 100px;
+}
+
+.team__wrapper p {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+}
+
+.team__wrapper span {
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #532C59
+}
